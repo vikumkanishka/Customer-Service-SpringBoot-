@@ -16,7 +16,7 @@ public class CustomerService {
         return repository.findAll();
     }
 
-    public void addCustomer(Customer customer) {
+    public void addCustomer(Customer customer)   {
         repository.save(customer);
     }
 }
