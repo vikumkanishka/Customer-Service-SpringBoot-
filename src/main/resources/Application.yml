@@ -2,8 +2,9 @@
     dataSource:
       url: jdbc:mysql://localhost:3306/gamekade
       username: root
-      password: 200004602360
+      password: '200004602360'
+
 
     jpa:
       hibernate:
-      ddl-auto: create
+        ddl-auto: update
