@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import edu.icet.service.CustomerService;
 import java.util.List;
 
+@CrossOrigin (origins = "http://127.0.0.1:5500")
 @RestController
 public class CustomerController {
 
